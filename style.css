@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik";
+}
+
+html,body{
+    /* cursor: url("./Printable-Department-ID-Card.jpg") !important; */
+}
+
+p, i{
+    color: #525252;;
+}
+
+i{
+    cursor: pointer;
+}
+
+.ri-arrow-down-s-fill{
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.logo{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+.logo i{
+    background-color: #fff;
+    box-shadow: 0 0 50px #d9d9d9;
+    font-size: 4rem;
+    padding: 20px;
+    border-radius: 50%;
+    margin-bottom: -4rem;
+    position: relative;
+    z-index: 999;
+    color: #1ac888;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(245, 245, 245);
+}
+
+main .input-url-container{
+    width: 70%;
+    margin: 1rem auto 3rem;
+    box-shadow: 0 0 50px #d9d9d9;
+    padding: 3rem 0;
+    border-radius: 10px;
+    position: relative;
+}
+
+main .input-button{
+    margin: 2rem 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .input-button input[type="text"]{
+    border: 1px solid #dbdbdb;
+    outline: none;
+    padding: 10px;
+    width: 55%;
+}
+
+main .input-button button{
+    all: unset;
+    padding: 9px 20px;
+    background-color: #1ac888;
+    color: #fff;
+    cursor: pointer;
+}
+
+main .url-text-div{
+    text-align: left;
+    border-bottom: 1px solid #dbdbdb;
+    border-right: 1px solid #dbdbdb;
+    border-left: 1px solid #dbdbdb;
+    width: 67%;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+
+.url-text-div div div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+main .link-container .link-header button{
+    cursor: pointer;
+}
+
+main .link-container .link-header{
+    width: 67%;
+    margin: 0 auto;
+    border: 1px solid rgb(202, 202, 202);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px 8px 0 0;
+}
+
+main .link-container .body{
+    /* overflow-y: scroll; */
+}
+
+.actions i{
+    font-size: 18px;
+    border: 1px solid rgb(202, 202, 202);
+    padding: 3px;
+}
